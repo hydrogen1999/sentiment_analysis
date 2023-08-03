@@ -1,0 +1,5 @@
+root_data_dir: ./data
+model_type: bert  # or 'lstm' for FastText-LSTM
+batch_size: 64
+num_workers: 2
+fasttext_embedding: None  # Otherwise specify path to embedding like src/embedding/fasttext_train_dev.model
